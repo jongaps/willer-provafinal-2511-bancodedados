@@ -103,7 +103,7 @@ from
 join
 	jogadores j on j.id = p.jogador_id
 join
-	categorias_partidas cp on cp.id = p.categoria_partida_id
+	categorias_partidas cp on cp.id = p.categoria_partida_id;
 
 
 create or replace function fn_buscar_jogadores(termo_pesq varchar)
